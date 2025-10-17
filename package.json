@@ -1,0 +1,16 @@
+{
+  "name": "bladee-music-player",
+  "version": "1.0.0",
+  "description": "A sleek music player for Bladee's 333 album",
+  "main": "index.html",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "keywords": ["music", "player", "bladee", "333"],
+  "author": "",
+  "license": "MIT"
+}

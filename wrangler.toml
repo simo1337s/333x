@@ -1,0 +1,21 @@
+name = "bladee-music-player"
+main = "index.html"
+compatibility_date = "2024-10-16"
+
+[site]
+bucket = "."
+
+[[rules]]
+type = "Text"
+globs = ["**/*.html", "**/*.css", "**/*.js"]
+fallthrough = true
+
+[[rules]]
+type = "Data"
+globs = ["**/*.mp3", "**/*.wav", "**/*.flac", "**/*.aac", "**/*.m4a", "**/*.ogg", "**/*.wma"]
+fallthrough = true
+
+[[rules]]
+type = "Data"
+globs = ["**/*.webp", "**/*.png", "**/*.jpg", "**/*.jpeg"]
+fallthrough = true
